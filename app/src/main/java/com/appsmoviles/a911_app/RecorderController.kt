@@ -97,6 +97,7 @@ class RecorderController {
         }catch(e: IOException){
             Log.e("RecorderController", "IO Exception: ${e.message}", e)
         }
+        //Roylin E. Rodriguez 2022-0455
         mediaPlayer.start()
         Toast.makeText(context, "Reproduciendo Audio", Toast.LENGTH_SHORT).show()
     }

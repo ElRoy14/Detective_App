@@ -13,7 +13,7 @@ import com.appsmoviles.a911_app.EventActivity
 
 class EventsAdapter(private var events: List<Event>, private var eContext: Context) :
     RecyclerView.Adapter<EventsAdapter.EventViewHolder>() {
-
+    //Roylin E. Rodriguez 2022-0455
     class EventViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val titleTextView: TextView = itemView.findViewById(R.id.titleTV)
         val descriptionTextView: TextView = itemView.findViewById(R.id.descriptionTV)
